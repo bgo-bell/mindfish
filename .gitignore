@@ -1,0 +1,18 @@
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Build output
+bin/
+
+# Database dumps and backups (could contain real student data)
+*.dump
+*.backup
+*.sql.gz
+
+# Logs and OS/editor files
+*.log
+.DS_Store
+.idea/
+.vscode/
